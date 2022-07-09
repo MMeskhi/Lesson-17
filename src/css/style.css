@@ -4,7 +4,44 @@
     box-sizing: border-box;
 }
 
-html body {}
+html body {
+    background-color: #4700d5;
+}
+
+#characters-list {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 20px;
+}
+
+.card-cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    height: 150px;
+    width: 500px;
+    background-color: aliceblue;
+}
+
+.card-cont img {
+    height: 100px;
+    max-width: 100px;
+    width: 100%;
+}
+
+.card-cont .card-name {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-cont .card-info {
+    flex-direction: column;
+}
 
 main {
     display: flex;
